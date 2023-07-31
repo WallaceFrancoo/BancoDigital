@@ -6,6 +6,13 @@ Esse site será um teste de como a pessoa iria entrar com um login e senha, e ir
 git clone nome-diretorio --> é utilizado para incluir um clone do diretorio para sua maquina local, assim possibilitando de realizar alterações!
 ```
 
+<h2>Sempre que for abrir o comando utilizar o comando git status para verificar se tem algo pendente e o git push</h2>
+```
+git status
+
+git push
+```
+
 <h2> Nesse site irá ser utilizado as linguagens HTML, JavaScript, Python e MySQL </h2>
 
 
