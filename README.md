@@ -12,7 +12,11 @@ git clone nome-diretorio --> é utilizado para incluir um clone do diretorio par
 git status
 git push
 ```
+<h2> Para verificar o log utilizar o git log </h2>
 
+```
+git log -- > Irá trazer um historico do Usuario e e-mail que foi alterado
+```
 <h2> Nesse site irá ser utilizado as linguagens HTML, JavaScript, Python e MySQL </h2>
 
 
