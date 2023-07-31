@@ -19,6 +19,7 @@ git add . --> é utilizado para incluir todos os novos arquivos do Git na sua ma
 
 git pull --> é utilizado para atualizar seus arquivos de acordo com o Git
 
+<H2> Atualizações entre branch's</h2>
 git checkout -b nome-da-branch --> é utilizado para criar um Branch/Diretorio dentro do GitHub
 ```
 Para acessar o outro Branch utilizar o git switch nome-da-branch
