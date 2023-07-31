@@ -11,6 +11,8 @@ git commit X -m "" --> X é o nome do arquivo, e entre "" para descrever a atual
 
 git push --> para subir as atualizações para o GitHub
 
+git add . --> é utilizado para incluir todos os novos arquivos do Git na sua maquina local
+
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
 
 git restore --source CodigoDoCommits . "ESSE . É USADO PARA SER TODOS OS ARQUIVOS"--> é utilizado para voltar versoes do projeto, esse codigo é encontrado dentro do site do projeto em Commits, embaixo do botao verde <> Code 
