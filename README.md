@@ -6,8 +6,11 @@ Esse site será um teste de como a pessoa iria entrar com um login e senha, e ir
 
 
 git status --> Para verificar se tem alguma atualização pendente
-
 git commit X -m "" --> X é o nome do arquivo, e entre "" para descrever a atualização que foi feita
+```
+Exemplo: git commit index.html -m "Alterações no HTML"
+```
+
 
 git push --> para subir as atualizações para o GitHub
 
