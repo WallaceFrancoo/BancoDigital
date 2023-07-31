@@ -21,6 +21,14 @@ git pull --> é utilizado para atualizar seus arquivos de acordo com o Git
 
 <H2> Atualizações entre branch's</h2>
 
+git branch --> irá mostrar quais branch tem no diretorio
+
+git merge nome-da-branch --> é utilizado para unificar uma branch com a atual
+
+```
+Exemplo: caso voce não esteja na main utilizar o git switch main
+e utilizar o git merge nome-da-branch para que unifique o arquivo de outra branch ao seu main
+```
 git checkout -b nome-da-branch --> é utilizado para criar um Branch/Diretorio dentro do GitHub
 ```
 Para acessar o outro Branch utilizar o git switch nome-da-branch
