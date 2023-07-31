@@ -1,4 +1,23 @@
+body{
+    width: center;
+    font: normal 16pt Arial;
+    background-color: rgb(228, 224, 217);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
 .Cabecario{
     text-align: center;
-    background-color: rgb(143, 143, 143);
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+}
+.Login{
+    text-align: center;
+    margin: auto;
+}
+#BotaoDeAcesso{
+    background-color: rgb(230, 230, 230);
 }
