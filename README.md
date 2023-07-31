@@ -9,7 +9,6 @@ git clone nome-diretorio --> é utilizado para incluir um clone do diretorio par
 <h2>Sempre que for abrir o comando utilizar o comando git status para verificar se tem algo pendente e o git push</h2>
 ```
 git status
-
 git push
 ```
 
