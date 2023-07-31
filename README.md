@@ -11,6 +11,8 @@ git clone nome-diretorio --> é utilizado para incluir um clone do diretorio par
 ```
 git status
 git push
+
+obs: caso o terminal fique no final com : apenas utilizar a tecla q que irá voltar para o pront de comando
 ```
 <h2> Para verificar o log utilizar o git log </h2>
 
