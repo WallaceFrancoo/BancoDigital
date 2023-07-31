@@ -27,7 +27,8 @@ Após isso incluir o nome do arquivo dentro dele que será ignorado
 No terminal incluir o codigo:
 
 git add .gitignore
-git
+git commit -m "Alterações"
+git push
 ```
 <h2> Nesse site irá ser utilizado as linguagens HTML, JavaScript, Python e MySQL </h2>
 
