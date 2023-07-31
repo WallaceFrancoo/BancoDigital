@@ -12,3 +12,5 @@ git commit X -m "" --> X é o nome do arquivo, e entre "" para descrever a atual
 git push --> para subir as atualizações para o GitHub
 
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
+
+git 
