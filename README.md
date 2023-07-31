@@ -2,6 +2,10 @@
 
 Esse site será um teste de como a pessoa iria entrar com um login e senha, e iria consultar o valor no banco
 
+```
+git clone nome-diretorio --> é utilizado para incluir um clone do diretorio para sua maquina local, assim possibilitando de realizar alterações!
+```
+
 <h2> Nesse site irá ser utilizado as linguagens HTML, JavaScript, Python e MySQL </h2>
 
 
