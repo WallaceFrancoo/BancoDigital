@@ -55,8 +55,11 @@ git branch --> irá mostrar quais branch tem no diretorio
 git merge nome-da-branch --> é utilizado para unificar uma branch com a atual
 
 ```
-Exemplo: caso voce não esteja na main utilizar o git switch main
-e utilizar o git merge nome-da-branch para que unifique o arquivo de outra branch ao seu main
+Exemplo: caso voce não esteja na main utilizar:
+    git switch main
+utilizar o 
+    git merge nome-da-branch 
+para que unifique o arquivo de outra branch ao seu main
 ```
 git checkout -b nome-da-branch --> é utilizado para criar um Branch/Diretorio dentro do GitHub
 ```
