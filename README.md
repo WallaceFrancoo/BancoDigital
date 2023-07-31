@@ -15,6 +15,10 @@ git add . --> é utilizado para incluir todos os novos arquivos do Git na sua ma
 
 git pull --> é utilizado para atualizar seus arquivos de acordo com o Git
 
+git checkout -b nome-da-branch --> é utilizado para criar um Branch/Diretorio dentro do GitHub
+```
+Para acessar o outro Branch utilizar o git switch nome-da-branch
+```
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
 
 git restore --source CodigoDoCommits . "ESSE . É USADO PARA SER TODOS OS ARQUIVOS"--> é utilizado para voltar versoes do projeto, esse codigo é encontrado dentro do site do projeto em Commits, embaixo do botao verde <> Code 
