@@ -13,6 +13,8 @@ git push --> para subir as atualizações para o GitHub
 
 git add . --> é utilizado para incluir todos os novos arquivos do Git na sua maquina local
 
+git pull --> é utilizado para atualizar seus arquivos de acordo com o Git
+
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
 
 git restore --source CodigoDoCommits . "ESSE . É USADO PARA SER TODOS OS ARQUIVOS"--> é utilizado para voltar versoes do projeto, esse codigo é encontrado dentro do site do projeto em Commits, embaixo do botao verde <> Code 
