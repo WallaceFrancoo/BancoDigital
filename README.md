@@ -13,4 +13,4 @@ git push --> para subir as atualizações para o GitHub
 
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
 
-git 
+git restore --source CodigoDoCommits --> é utilizado para voltar versoes do projeto, esse codigo é encontrado dentro do site do projeto em Commits, embaixo do botao verde <> Code
