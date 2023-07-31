@@ -19,6 +19,16 @@ obs: caso o terminal fique no final com : apenas utilizar a tecla q que irá vol
 ```
 git log -- > Irá trazer um historico do Usuario e e-mail que foi alterado
 ```
+<h2> Para criar um arquivo e ele ser ignorado pelo git </h2>
+
+```
+Bastar criar um arquivo dentro do diretorio com nome .gitignore
+Após isso incluir o nome do arquivo dentro dele que será ignorado
+No terminal incluir o codigo:
+
+git add .gitignore
+git
+```
 <h2> Nesse site irá ser utilizado as linguagens HTML, JavaScript, Python e MySQL </h2>
 
 
