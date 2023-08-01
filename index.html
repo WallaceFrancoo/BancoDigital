@@ -8,14 +8,22 @@
 </head>
 <body>
     <div class="Cabecario">
-    <h1>Olá, seja bem-vindo ao nosso Banco Digital</h1>
+    <h1>Bem-vindo ao nosso Banco Digital</h1>
     </div>
     <br><br>
-    <div class="Login">Chave de acesso
-        <input class="nomeLogin" id="nomeLogin">
-        <button id="BotaoDeAcesso">Acessar</button>
+        <section id="AreaDeLogin">
+            <div class="Login">Chave de acesso
+                <input class="CampoLogin" id="nomeLogin">
+            </div>
+            <div class="Senha"> Senha
+                <input class="CampoLogin" type="password" id="senha"> 
+                <input type="button" class= "CampoSenha" id="MostrarSenha" onclick="MostrarSenha()">
+            </div>
+        </section>
+    <div class="BotaoDeAcesso">
+    <button id="BotaoDeAcesso"> Acessar </button>
     </div>
-  <script src="funcoes.js"></script>
+    <script src="funcoes.js"></script>
     
 </body>
 </html>
