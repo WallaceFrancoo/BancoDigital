@@ -12,16 +12,20 @@
     </div>
     <br><br>
         <section id="AreaDeLogin">
-            <div class="Login">Chave de acesso
-                <input class="CampoLogin" id="nomeLogin">
+            <div class="nomenclatura-campos">Chave de acesso
+                <input class="campo-para-preencher" id="nomeLogin">
             </div>
-            <div class="Senha"> Senha
-                <input class="CampoLogin" type="password" id="senha"> 
-                <input type="button" class= "CampoSenha" id="MostrarSenha" onclick="MostrarSenha()">
+            <div class="nomenclatura-campos"> Senha
+                <div class="linhaSenha">
+                    <input class="campo-para-preencher" type="password" id="senha">
+                    <button type="button" class= "CampoSenha" id="MostrarSenha" onclick="MostrarSenha()">
+                        <img class="botaoVerificar" src="olho.png">
+                    </button>
+                </div>
             </div>
         </section>
     <div class="BotaoDeAcesso">
-    <button id="BotaoDeAcesso"> Acessar </button>
+    <button class="BotaoDeAcesso" onclick="Acessar()"> Acessar </button>
     </div>
     <script src="funcoes.js"></script>
     
