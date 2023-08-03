@@ -62,6 +62,8 @@ utilizar o
 para que unifique o arquivo de outra branch ao seu main
 ```
 git checkout -b nome-da-branch --> é utilizado para criar um Branch/Diretorio dentro do GitHub
+
+git checkout nome-da-branch --> é utilizado para acessar uma branch
 ```
 Para acessar o outro Branch utilizar o git switch nome-da-branch
 ```
