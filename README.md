@@ -68,3 +68,12 @@ Para acessar o outro Branch utilizar o git switch nome-da-branch
 Para conectar o CSS ao HTML caso seja por Class -> .NomeDaClass
 
 git restore --source CodigoDoCommits . "ESSE . É USADO PARA SER TODOS OS ARQUIVOS"--> é utilizado para voltar versoes do projeto, esse codigo é encontrado dentro do site do projeto em Commits, embaixo do botao verde <> Code 
+
+<h2> Como utilizar os Branches </h2>
+
+Os Branches são para criar áreas de trabalhos para utilização simultanea do codigo, fazendo assim a possibilidade de um não alterar o codigo do outro, para criar uma Branche é utilizado o checkout
+Exemplo:
+
+```
+git checkout -b nome-da-branche
+```
