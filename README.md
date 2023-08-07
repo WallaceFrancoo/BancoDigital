@@ -120,4 +120,27 @@ A utilização das Tags, são para criar pontos aonde o arquivo não será modif
 
 ```
 git tag -a nome-da-tag -m "descrição"
+
+```
+
+<h2> Unificando commit</h2>
+
+Para unir mais de commit é necessario utilizar os seguintes codigos:
+
+```
+Utilizar o:
+
+git log --oneline 
+
+após verificar o commit desejado, selecionar o anterior e copiar o nome do arquivo
+
+git rebase -i codigo-desejado
+
+```
+Irá abrir uma nova tela, e em cima irá aparecer os commits desejados, deixar apenas o pick no começo da principal, o restante que for unificar incluir o " s " no começo
+
+```
+Dicas:
+
+Para fechar o painel utilizar o :X
 ```
