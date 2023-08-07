@@ -79,3 +79,31 @@ Exemplo:
 ```
 git checkout -b nome-da-branche
 ```
+
+<h2> Revertendo alterações feitas </h2>
+
+Para reverter uma alteração que já foi realizado o commit:
+```
+git log 
+-- verificar o codigo do commit
+git revert codigo
+```
+
+Se apenas já tiver add o arquivo realizar:
+
+```
+git reset HEAD nome-do-arquivo
+git checkout -- nome-do-arquivo 
+```
+
+<h2> Como guardar alterações pra depois realizar o commit </h2>
+
+Para realizar alterações para realizar alterações futuras, é utilizado o Stash
+O pop é utilizado para trazer alterações feitas em uma linha especifica, como por exemplo alterar a linha 12 e salvar, e depois realizar um commit na linha 15, para trazer a linha 12 novamente basta realizar o git stash pop
+
+```
+git stash -> para salvar as alterações sem subir o arquivo
+git stash list -> para verificar as listas do que foi salvo
+
+git stash pop -> para trazer os arquivos de volta 
+```
