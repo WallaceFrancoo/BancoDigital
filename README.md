@@ -107,3 +107,11 @@ git stash list -> para verificar as listas do que foi salvo
 
 git stash pop -> para trazer os arquivos de volta 
 ```
+
+<h2> Criação de tags </h2>
+
+A utilização das Tags, são para criar pontos aonde o arquivo não será modificado para trás ou versões a serem transmitidas
+
+```
+git tag -a nome-da-tag -m "descrição"
+```
