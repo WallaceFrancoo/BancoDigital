@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            h1{
+                width: 400px;
+                padding: 10px;
+                border:1px solid;
+            }
+            h3{
+                width: 200px;
+                padding: 10px;
+                border:1px solid;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Preencha o formulário</h1>
+        <form   action="GravarDados.php" 
+                method="POST"
+                enctype="multipart/form-data">
+        
+        <h3>Seus dados</h3>
+
+            Nome:
+            <input type="text" name = "NomeCliente" maxlength="80"
+                placeholder="Digite seu nome">
+            <br>
+
+            RG:
+            <input type="text" name = "RG" maxlength="9"
+                placeholder="Digite seu RG">
+            <br>
+
+            E-mail:
+            <input type="text" name="EmailCliente" maxlength="80"
+                placeholder="Digite seu e-mail">
+            <br>
+
+            Contato:
+            <input type="text" name="Contato" maxlength="9"
+                placeholder="Digite seu celular">
+            <br>
+
+            Data de nascimento:
+            <input type="date" name="DataNascimento" value="2000-01-01" min="1900-01-01" max="2025-12-31">
+            <br>
+
+            Profissão:
+            <input type="text" name="Profissão" maxlength="15">
+            <br>
+
+            Senha:
+            <input type="text" name="Senha" maxlength="20">
+            <br>
+            
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar dados">     
+
+        </form>
+    </body>
+</html>
